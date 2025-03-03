@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
+
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -12,3 +16,14 @@ p{
     font-style: italic;
 }
 
+.simple-text{
+    position: flex;
+    align-items: left;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+input[type="text"]{
+    color: darkblue;
+}
