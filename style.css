@@ -28,12 +28,11 @@ input[type="text"]{
     color: darkblue;
 }
 
-button{
+#btn{
     position: relative;
-    top: 30px;
 }
 
-button:hover{
+#btn:hover{
     color: green;
     font-weight: bold;
 }
@@ -41,4 +40,48 @@ button:hover{
 h1::first-letter{
     color: red;
     size: 2rem;
+}
+
+.email-input{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pass-input{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 15px;  
+    top: 30px;       
+}
+
+.submit-button button {
+    background-color: blue;   
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button button:hover{
+    background-color: green;
+    color: white; 
 }
