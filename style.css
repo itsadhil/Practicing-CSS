@@ -27,3 +27,18 @@ p{
 input[type="text"]{
     color: darkblue;
 }
+
+button{
+    position: relative;
+    top: 30px;
+}
+
+button:hover{
+    color: green;
+    font-weight: bold;
+}
+
+h1::first-letter{
+    color: red;
+    size: 2rem;
+}
