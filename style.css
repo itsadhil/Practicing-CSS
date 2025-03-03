@@ -85,3 +85,15 @@ h1::first-letter{
     background-color: green;
     color: white; 
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    gap: 10px;
+}
+
+.grid-item{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
